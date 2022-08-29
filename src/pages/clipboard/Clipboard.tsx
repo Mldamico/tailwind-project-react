@@ -1,18 +1,26 @@
-import React from "react";
 import Hero from "./components/Hero";
-import bgImg from "./images/bg-header-desktop.png";
+import Snippets from "./components/Snippets";
+import Features from "./components/Features";
+import Access from "./components/Access";
+import Supercharge from "./components/Supercharge";
+import References from "./components/References";
+import Bottom from "./components/Bottom";
+import Footer from "./components/Footer";
+import GlobalStyles from "./styles/GlobalStyles";
 
-import { styled } from "twin.macro";
-const MainStyles = styled.main`
-  background-image: url(${bgImg});
-  background-repeat: no-repeat;
-  background-size: contain;
-`;
 function Clipboard() {
   return (
-    <MainStyles>
+    <>
+      <GlobalStyles />
       <Hero />
-    </MainStyles>
+      <Snippets />
+      <Features />
+      <Access />
+      <Supercharge />
+      <References />
+      <Bottom />
+      <Footer />
+    </>
   );
 }
 
