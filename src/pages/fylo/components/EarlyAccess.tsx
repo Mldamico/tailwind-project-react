@@ -17,7 +17,7 @@ export default function EarlyAccess() {
           <div className="w-full flex-1">
             <input
               type="text"
-              className="w-full px-10 py-3 rounded-full focus:outline-none"
+              className="w-full px-10 py-3 rounded-full focus:outline-none dark:text-black"
               placeholder="email@example.com"
             />
           </div>
