@@ -17,6 +17,7 @@ export default function Creations() {
               imageDesktop={item.imageDesktop}
               imageMobile={item.imageMobile}
               text={item.text}
+              key={item.text}
             />
           ))}
         </div>

@@ -3,6 +3,7 @@ import { Logo, HeroDesktop, HeroMobile } from "../images";
 import Hamburger from "./Hamburger";
 import { MenuMobile, Heading1 } from "../styles/index";
 import { links } from "../data";
+import { Link } from "./Link";
 
 const Section = styled.section`
   background-image: url(${HeroDesktop});
@@ -20,15 +21,6 @@ const Section = styled.section`
 const SectionContainer = tw.div`container max-w-6xl mx-auto px-6 py-12`;
 const NavContainer = tw.div`flex flex-row justify-between items-center font-bold text-white`;
 
-const BottomLineBorder = tw.div`mt-1 group-hover:border-b group-hover:border-blue-50`;
-
-const LinkDesktop = ({ text }: { text: string }) => (
-  <div className="group">
-    <a href="#">{text}</a>
-    <BottomLineBorder />
-  </div>
-);
-
 export default function Hero() {
   return (
     <Section>
@@ -37,7 +29,7 @@ export default function Hero() {
           <img src={Logo} alt="Loop Logo" />
           <div className="hidden h-10 font-alata md:flex md:space-x-8">
             {links.map((link) => (
-              <LinkDesktop text={link} />
+              <Link text={link} key={link} />
             ))}
           </div>
           <Hamburger />

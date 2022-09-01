@@ -15,9 +15,20 @@ import {
   PocketBorealisMobile,
   SoccerTeamDesktop,
   SoccerTeamMobile,
+  FacebookIcon,
+  InstagramIcon,
+  PinterestIcon,
+  TwitterIcon,
 } from "../images";
 
 export const links = ["About", "Careers", "Events", "Products", "Support"];
+
+export const icons = [
+  { icon: FacebookIcon, text: "Facebook Icon" },
+  { icon: InstagramIcon, text: "Instagram Icon" },
+  { icon: TwitterIcon, text: "Twitter Icon" },
+  { icon: PinterestIcon, text: "Pinterest Icon" },
+];
 
 export const items = [
   {
