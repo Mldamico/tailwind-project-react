@@ -1,5 +1,5 @@
 import tw from "twin.macro";
-
+import CopyToClipboard from "react-copy-to-clipboard";
 const Button = tw.button`p-2 px-8 text-white  rounded-lg hover:opacity-70 focus:outline-none`;
 
 export const ShortenList = ({
@@ -17,7 +17,9 @@ export const ShortenList = ({
     </p>
     <div className="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
       <p className="font-bold text-cyan">{short}</p>
-      <Button className={color}>Copy</Button>
+      <CopyToClipboard text={short}>
+        <Button className={color}>Copy</Button>
+      </CopyToClipboard>
     </div>
   </div>
 );

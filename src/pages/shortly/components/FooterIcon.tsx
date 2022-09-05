@@ -1,5 +1,3 @@
-import React from "react";
-import tw from "twin.macro";
 import styled from "@emotion/styled";
 
 interface IFooterIcon {

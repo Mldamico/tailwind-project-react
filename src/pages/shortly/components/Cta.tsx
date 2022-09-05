@@ -1,4 +1,6 @@
-import React from "react";
+import tw from "twin.macro";
+
+export const BtnStarted = tw.button`px-10 py-5 mx-auto text-2xl font-bold text-white rounded-full bg-cyan hover:bg-cyanLight md:text-base md:py-3 focus:outline-none`;
 
 export default function Cta() {
   return (
@@ -7,9 +9,7 @@ export default function Cta() {
         <h5 className="mx-auto space-y-10 text-4xl font-bold text-white text-center">
           Boost your links today
         </h5>
-        <button className="px-10 py-5 mx-auto text-2xl font-bold text-white rounded-full bg-cyan hover:bg-cyanLight md:text-base md:py-3 focus:outline-none">
-          Get Started
-        </button>
+        <BtnStarted>Get Started</BtnStarted>
       </div>
     </section>
   );
