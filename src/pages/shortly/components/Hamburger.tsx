@@ -4,18 +4,18 @@ import { styled } from "twin.macro";
 
 const HamburgerContainer = styled.button`
   cursor: pointer;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   transition: all 0.25s;
   position: relative;
 `;
 const HamburgerRow = styled.span`
   position: absolute;
-  width: 24px;
+  width: 30px;
   height: 2px;
   top: 0;
   left: 0;
-  background: #fff;
+  background: #9c9aa6;
   transform: rotate(0);
   transition: all 0.5s;
 `;
@@ -30,7 +30,6 @@ export default function Hamburger({ isOpen, toggleSidebar }: IHamburger) {
     <div className="md:hidden">
       <HamburgerContainer
         className="z-40 block lg:hidden focus:outline-none"
-        id="menu-btn"
         type="button"
         onClick={() => toggleSidebar(!isOpen)}
       >

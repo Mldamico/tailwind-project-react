@@ -23,6 +23,7 @@ export default function Shorten() {
         </FormContainer>
         {shorteLinks.map((short, index) => (
           <ShortenList
+            key={short.link}
             link={short.link}
             short={short.short}
             color={index % 2 === 0 ? "bg-cyan" : "bg-darkViolet"}
