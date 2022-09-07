@@ -31,6 +31,9 @@ module.exports = {
         grayishViolet: "hsl(257, 7%, 63%)",
         veryDarkBlue: "hsl(255, 11%, 22%)",
         veryDarkViolet: "hsl(260, 8%, 14%) ",
+        softBlue: "hsl(231, 69%, 60%)",
+        softRed: "hsl(0, 94%, 66%)",
+        darkerBlue: "hsl(229, 31%, 21%)",
       },
       backgroundImage: (theme) => ({
         "logo-dark-mode": "url('./pages/fylo/images/logo-dark-mode.svg')",
@@ -38,6 +41,7 @@ module.exports = {
         "curvy-dark-mode": "url('./pages/fylo/images/bg-curvy-dark-mode.svg')",
         "curvy-light-mode":
           "url('./pages/fylo/images/bg-curvy-light-mode.svg')",
+        dots: "url('./pages/bookmark/images/bg-dots.svg')",
       }),
     },
   },
