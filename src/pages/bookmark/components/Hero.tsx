@@ -15,7 +15,7 @@ const BgBlueRight = styled.div([
 ]);
 export default function Hero() {
   return (
-    <section id="hero">
+    <section>
       <div className="container flex flex-col-reverse p-6 mx-auto lg:flex-row lg:mb-0">
         <div className="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
           <h1 className="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
