@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export default function Hero() {
   return (
-    <section id="hero">
+    <section>
       <SectionContainer className="mb-40 pt-16">
         <img className="mx-auto my-16" src={Logo} alt="Logo Clipboard" />
         <Heading3>The copy lifesaver dream</Heading3>
@@ -14,9 +14,9 @@ export default function Hero() {
         </p>
         <ButtonContainer>
           <Button>Download For Android</Button>
-          <Button color={"bg-strongCyan"}>Download For iOS</Button>
-          <Button color={"bg-lightBlue"}>Download For Mac</Button>
-          <Button color={"bg-windowsColor"}>Download For Windows</Button>
+          <Button color="bg-strongCyan">Download For iOS</Button>
+          <Button color="bg-lightBlue">Download For Mac</Button>
+          <Button color="bg-windowsColor">Download For Windows</Button>
         </ButtonContainer>
       </SectionContainer>
     </section>

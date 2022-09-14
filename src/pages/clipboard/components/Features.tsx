@@ -24,14 +24,12 @@ export default function Features() {
                 application and more.
               </p>
             </div>
-
             <div>
               <Heading5>iCloud Sync</Heading5>
               <p className="max-w-md text-grayishBlue">
                 Instantly saves and syncs snippets across all your devices.
               </p>
             </div>
-
             <div>
               <Heading5>Completely History</Heading5>
               <p className="max-w-md text-grayishBlue">
