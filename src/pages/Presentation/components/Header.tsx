@@ -1,5 +1,6 @@
 import { Bookmark, Clipboard, Loop } from "../images";
 import tw from "twin.macro";
+import Navigation from "./Navigation";
 
 const Image = tw.img`w-64 absolute md:max-w-full md:w-1/2 hover:z-50 hover:border-2 hover:border-black hover:scale-110 transition-all duration-150`;
 
